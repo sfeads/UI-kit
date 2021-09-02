@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 1rem; /* Unidaddes REM */
+    font-family: monospace;
+}
+
+root {
+    /*colores*/
+    
+    --rosado: #FDD2BF;
+    --rojoc: #FF6B6B;
+    --rojo: #B61919;
+    --azul: #012443;
+    
+    /*Tamaños de fuente*/
+    
+    --h1 : 3.6rem;
+    --h2 : 2.6rem;
+    --h3 : 1.8rem;
+    --parrafo : 1.4rem;
+}
+
+/*Definición de las secciones*/
+section{
+    max-width: 100rem;
+    height: auto;
+    margin: auto;
+    padding: 50rem 0;
+}
+
+.background-section{
+    width: 100%;
+    height: auto;
+}

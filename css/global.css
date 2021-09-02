@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 1rem; /* Unidaddes REM */
+}
+
+root {
+    /*colores*/
+    
+    --azul: #345FB4;
+    --celeste: #6789CA;
+    --negro: #313131;
+    --gris: #777777;
+    --blanco: #A5A5A5;
+    
+    /*Tamaños de fuente*/
+    
+    --Titulos : 3.4rem;
+    --Sub : 2rem;
+    --Texto : 1.6rem;
+    --parrafo : 1.4rem;
+    --SubTex : 1.2rem;
+}
+
+/*Definición de las secciones*/
+section{
+    max-width: 37.5rem;
+    height: auto;
+    margin: auto;
+}
+
+.background-section{
+    width: 100%;
+    height: auto;
+}
+
+/*Definición de Botones*/
+.botones{
+    width: 31.5rem;
+    height: 5.4rem;
+
+    background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
+}
+
